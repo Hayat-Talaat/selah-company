@@ -762,8 +762,8 @@ input[type='checkbox'] {
 /*    04. Header     */
 /*********************/
 .header {
-	background: linear-gradient(to bottom right, #212b61, rgba(241, 104, 104, 0)), url(../images/header-background.jpg) center center no-repeat;
-
+	/* background: linear-gradient(to bottom right, #212b61, rgba(241, 104, 104, 0)), url(../images/header-background.jpg) center center no-repeat; */
+background: radial-gradient(rgba(33, 43, 97, 0.06), rgba(207, 196, 229, 0.02) 3.36%, rgba(241, 104, 104, 0) 16.39%), url(../images/header-background.jpg) center center no-repeat;
 	background-size: cover;
 }
 
@@ -1009,8 +1009,9 @@ input[type='checkbox'] {
 .basic-1 {
 	padding-top: 6.375rem;
 	padding-bottom: 6.875rem;
-	background: linear-gradient(to bottom right, #212b61, rgba(241, 104, 104, 0)), url(../images/header-background.jpg) center center no-repeat;
-    background-size: cover;
+	/* background: linear-gradient(to bottom right, #212b61, rgba(241, 104, 104, 0)), url(../images/header-background.jpg) center center no-repeat; */
+	background: url('../images/download-background.jpg') center center no-repeat;
+	background-size: cover;
 }
 
 .basic-1 h2 {
