@@ -763,8 +763,10 @@ input[type='checkbox'] {
 /*********************/
 .header {
 	/* background: linear-gradient(to bottom right, #212b61, rgba(241, 104, 104, 0)), url(../images/header-background.jpg) center center no-repeat; */
-background: radial-gradient(rgba(33, 43, 97, 0.06), rgba(207, 196, 229, 0.02) 3.36%, rgba(241, 104, 104, 0) 16.39%), url(../images/header-background.jpg) center center no-repeat;
-	background-size: cover;
+/* background: radial-gradient(rgba(33, 43, 97, 0.06), rgba(207, 196, 229, 0.02) 3.36%, rgba(241, 104, 104, 0) 16.39%), url(../images/header-background.jpg) center center no-repeat;
+	background-size: cover; */
+	background: url(../images/bg.jpg);
+	background: #2d3c80;
 }
 
 .header .header-content {
